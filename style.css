@@ -396,6 +396,20 @@
         border: 2px solid var(--main-color);
         resize: none; 
         min-height: 100px; 
+        min-width: 300px; 
+    }
+    
+   
+    @media (max-width: 600px) {
+        .contact form .form-fields input,
+        .contact form textarea {
+            font-size: 1.4rem; 
+            padding: 1rem; 
+        }
+    
+        .contact h2 {
+            font-size: 4rem; 
+        }
     }
     
 
